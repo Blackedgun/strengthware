@@ -1,0 +1,17 @@
+La elección entre "BEFORE" (antes) y "AFTER" (después) 
+en un trigger depende de cuándo deseas que ocurra la acción definida por el trigger 
+en relación con la operación en curso (por ejemplo, INSERT, UPDATE o DELETE). 
+En este caso, se utiliza "BEFORE INSERT" porque 
+deseas calcular y establecer el valor 
+de fac_pagototal antes de que la 
+fila se inserte en la tabla.
+
+Si utilizaras "AFTER INSERT", 
+la fila se insertaría primero en la tabla con el valor de fac_pagototal en blanco o nulo, y luego, 
+después de la inserción, se calcularía y establecería el valor de fac_pagototal. En cambio, "BEFORE INSERT" 
+te permite realizar el cálculo antes de que se inserte la fila en la tabla, lo que generalmente es más 
+eficiente y evita la necesidad de realizar una actualización adicional después de la inserción.
+
+La elección entre "BEFORE" y "AFTER" 
+depende de tus necesidades específicas y de cuándo deseas que 
+se realice la acción del trigger en relación con la operación principal que desencadena el trigger.

@@ -1,0 +1,20 @@
+$_SERVER['PHP_SELF']: El nombre del archivo de script actual que se está ejecutando.
+
+$_SERVER['SERVER_NAME']: El nombre del servidor web.
+[
+    
+$_SERVER['REQUEST_METHOD']: El método HTTP utilizado para la solicitud actual (por ejemplo, "GET" o "POST").
+
+Ejemplo: $_SERVER["REQUEST_METHOD"] == "POST" 
+
+]
+
+$_SERVER['QUERY_STRING']: La cadena de consulta (query string) de la URL que se usó para acceder al script.
+
+$_SERVER['HTTP_USER_AGENT']: El User-Agent del navegador web que hizo la solicitud.
+
+$_SERVER['REMOTE_ADDR']: La dirección IP del cliente que hizo la solicitud.
+
+$_SERVER['HTTP_REFERER']: La URL de la página anterior que llevó al cliente a la página actual.
+
+$_SERVER['HTTP_HOST']: El host del servidor web, que generalmente se usa en la construcción de URLs absolutas.
