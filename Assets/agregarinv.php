@@ -27,5 +27,5 @@ include "reg.php";
         <input class="bottom" type="submit" value="Aceptar">
         <option value=""></option>
     </form>
-</body>
+</body>  
 </html>
