@@ -116,6 +116,10 @@ include 'reg.php';
       <div>
         <a style="color:#707070; height:fit-content; font-size:1.1rem; width:60px; margin-left:400px; background-color:lawngreen;" class='footer__title' href="convert/convertocsvfac.php">CSV</a>
       </div>
+      <br>
+      <div>
+        <a style="color:#fff; height:fit-content; font-size:1.1rem; width:60px; margin-left:400px; background-color:forestgreen;" class='footer__title' href="convert/convertoxmlfac.php">XML</a>
+      </div>
     </form>
     <br>
     <br>
